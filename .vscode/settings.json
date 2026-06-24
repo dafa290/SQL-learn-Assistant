@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/.git": true
+  },
+  "[sql]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.suggest.enabled": false,
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "editor.wordBasedSuggestions": "off",
+  "editor.inlineSuggest.enabled": false
+}
