@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  mysql_db:
+    image: mysql:8.0
+    container_name: db_inventory_final
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: magang123
+      MYSQL_DATABASE: inventory_db
+    volumes:
+      - data-inventory:/var/lib/mysql
+      # Mount file SQL ke dalam container
+      - ../inventory.sql:/docker-entrypoint-initdb.d/init.sql
+
+  backend_api:
+    build: 
+      context: ..      # Root build ada di folder PROJECT_FINAL
+      dockerfile: Dockerfile
+    container_name: api_inventory_final
+    ports:
+      - "5000:8080"    # Laptop: 5000, Container: 8080 (sesuai app.listen(8080))
+    environment:
+      DB_HOST: mysql_db
+      DB_USER: root
+      DB_PASSWORD: magang123
+      DB_NAME: inventory_db
+    depends_on:
+      - mysql_db
+
+volumes:
+  data-inventory:
