@@ -251,3 +251,5 @@ Anda harus bisa menjawab pertanyaan-pertanyaan ini (jawab di `latihan.md`):
 - [ ] Kenapa backend developer perlu Docker?
 
 **Jika semua ✅ → Lanjut ke Topik 2: Image & Container!**
+
+<!-- rev-1717 -->
