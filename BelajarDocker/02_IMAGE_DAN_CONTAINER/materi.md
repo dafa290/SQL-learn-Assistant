@@ -366,3 +366,5 @@ Ketik `exit` untuk keluar dari MySQL shell.
 - [ ] Bisa menjalankan MySQL di Docker dan masuk ke MySQL shell
 
 **Jika semua ✅ → Kerjakan latihan.md lalu lanjut ke Topik 3: Dockerfile!**
+
+<!-- rev-6566 -->
