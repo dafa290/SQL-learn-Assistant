@@ -137,3 +137,5 @@ services:
 ---
 
 > ✅ Konsep sudah paham? Lanjut ke **latihan.md** untuk langsung men-deploy Full-Stack (Backend API + MySQL) di laptop Anda!
+
+<!-- rev-6472 -->
