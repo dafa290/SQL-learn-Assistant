@@ -115,3 +115,5 @@ Sekarang, dari dalam kode Java Backend Anda, URL koneksi databasenya BUKAN `loca
 ---
 
 > ✅ Lanjut ke **latihan.md** untuk membuktikan bahwa data database benar-benar tidak hilang walau container dihapus!
+
+<!-- rev-9840 -->
