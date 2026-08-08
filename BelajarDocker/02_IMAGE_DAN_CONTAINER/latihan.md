@@ -188,3 +188,5 @@ Ketik `y` saat diminta konfirmasi.
 | `docker system prune` | Bersihkan yang tidak terpakai |
 
 > ✅ Jika semua latihan selesai → Lanjut ke **Topik 3: Dockerfile**!
+
+<!-- rev-1222 -->
