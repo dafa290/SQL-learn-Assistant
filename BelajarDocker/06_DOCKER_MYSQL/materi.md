@@ -96,3 +96,5 @@ Anda bisa memasukkan kredensial ini ke:
 ---
 
 > ✅ Lanjut ke **latihan.md** untuk langsung mempraktekkan auto-load database SQL Anda!
+
+<!-- rev-8263 -->
