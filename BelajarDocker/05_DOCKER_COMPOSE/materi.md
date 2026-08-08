@@ -130,3 +130,5 @@ Saat Anda pertama kali masuk project (hari pertama kerja):
 ---
 
 > ✅ Lanjut ke **latihan.md** untuk membuktikan seberapa mudahnya memakai Docker Compose!
+
+<!-- rev-1687 -->
