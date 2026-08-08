@@ -151,3 +151,5 @@ This message shows that your installation appears to be working correctly.
 - [ ] `docker run hello-world` berhasil menampilkan "Hello from Docker!"
 
 **Jika semua ✅ → Lanjut ke Topik 1: Konsep Dasar Docker!**
+
+<!-- rev-5521 -->
